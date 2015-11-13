@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Topshelf.Runtime;
+﻿using Topshelf.Runtime;
 
-namespace SamlpeService.Extensions
+namespace SampleService.Extensions
 {
     /// <summary>
     /// HostControl extension methods

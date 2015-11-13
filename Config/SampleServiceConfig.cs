@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SamlpeService.Config
+﻿namespace SampleService.Config
 {
     /// <summary>
     /// Sample service config
     /// </summary>
-    public class SampleServiceConfig
+    public static class SampleServiceConfig
     {
         /// <summary>
         /// Service name

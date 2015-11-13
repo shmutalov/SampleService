@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using NLog;
-using SamlpeService.Config;
+using SampleService.Config;
 using Topshelf;
 
 namespace SamlpeService
@@ -33,7 +33,7 @@ namespace SamlpeService
                     HostFactory.Run(conf =>
                     {
                         // service configuration
-                        conf.Service(settings => new SampleService(settings));
+                        conf.Service(settings => new SampleService.SampleService(settings));
 
                         // set recovery mode
                         conf.EnableServiceRecovery(rc =>

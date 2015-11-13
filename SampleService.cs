@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NLog;
-using SamlpeService.Extensions;
+﻿using NLog;
+using SampleService.Extensions;
 using Topshelf;
 using Topshelf.Runtime;
 
-namespace SamlpeService
+namespace SampleService
 {
     /// <summary>
     /// Sample service controller
