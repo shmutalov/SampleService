@@ -19,11 +19,11 @@ namespace SamlpeService.Config
         /// <summary>
         /// Service display name
         /// </summary>
-        public const string ServiceDisplayName = "DataMicron MonetDB Service (MonetDBSvc)";
+        public const string ServiceDisplayName = "SampleService";
 
         /// <summary>
         /// Service description
         /// </summary>
-        public const string ServiceDescription = "DataMicron MonetDB Server Windows Service Host";
+        public const string ServiceDescription = "SampleService does nothing. Make war, not love!";
     }
 }
