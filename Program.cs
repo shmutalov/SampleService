@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Threading;
 using NLog;
 using SampleService.Config;
@@ -22,6 +23,8 @@ namespace SampleService
         {
             if (Mutex.WaitOne(TimeSpan.Zero, true))
             {
+                Console.OutputEncoding = Encoding.UTF8;
+
                 try
                 {
                     // configure the service
