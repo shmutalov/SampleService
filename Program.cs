@@ -17,7 +17,7 @@ namespace SampleService
         /// <summary>
         /// For each service, GUID must be unique
         /// </summary>
-        private readonly static Mutex Mutex = new Mutex(true, @"Global\ee53f62a-0d35-4536-92ac-3abad9dd1ba0");
+        private readonly static Mutex Mutex = new Mutex(true, @"Global\SampleService");
 
         public static void Main(string[] args)
         {
