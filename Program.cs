@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using NLog;
 using SampleService.Config;
 using Topshelf;
 
-namespace SamlpeService
+namespace SampleService
 {
     public static class Program
     {
@@ -33,7 +28,7 @@ namespace SamlpeService
                     HostFactory.Run(conf =>
                     {
                         // service configuration
-                        conf.Service(settings => new SampleService.SampleService(settings));
+                        conf.Service(settings => new global::SampleService.SampleService(settings));
 
                         // set recovery mode
                         conf.EnableServiceRecovery(rc =>
